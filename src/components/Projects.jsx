@@ -29,12 +29,12 @@ export default function Projects() {
         
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <h2 className="text-xs font-semibold tracking-wider text-indigo-400 uppercase mb-2">
+          <p className="text-xs font-semibold tracking-wider text-indigo-400 uppercase mb-2">
             Featured Projects
-          </h2>
-          <p className="text-3xl font-bold text-white tracking-tight sm:text-4xl">
-            Software, Utility & AI Projects
           </p>
+          <h2 className="text-3xl font-bold text-white tracking-tight sm:text-4xl">
+            Software, Utility &amp; AI Projects
+          </h2>
           <p className="mt-3 text-sm text-slate-400">
             Exploration across web utility platforms, campus tools, and intelligent predictive algorithms.
           </p>

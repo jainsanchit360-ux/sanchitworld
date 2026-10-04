@@ -18,12 +18,12 @@ export default function About() {
         
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <h2 className="text-xs font-semibold tracking-wider text-indigo-400 uppercase mb-2">
+          <p className="text-xs font-semibold tracking-wider text-indigo-400 uppercase mb-2">
             About Me
-          </h2>
-          <p className="text-3xl font-bold text-white tracking-tight sm:text-4xl">
-            Passionate about AI, Data & Software Engineering
           </p>
+          <h2 className="text-3xl font-bold text-white tracking-tight sm:text-4xl">
+            Passionate about AI, Data &amp; Software Engineering
+          </h2>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -35,8 +35,11 @@ export default function About() {
                 <span className="w-3 h-3 rounded-full bg-indigo-500 inline-block" />
                 Introduction
               </h3>
-              <p className="text-slate-300 text-sm leading-relaxed mb-6">
+              <p className="text-slate-300 text-sm leading-relaxed mb-4">
                 {profile.bio}
+              </p>
+              <p className="text-slate-300 text-sm leading-relaxed mb-6">
+                {profile.bioExtended}
               </p>
               
               <div className="pt-6 border-t border-slate-800/80">

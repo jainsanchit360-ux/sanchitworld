@@ -15,12 +15,12 @@ export default function Activities() {
         
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <h2 className="text-xs font-semibold tracking-wider text-indigo-400 uppercase mb-2">
-            Leadership & Community
-          </h2>
-          <p className="text-3xl font-bold text-white tracking-tight sm:text-4xl">
-            Activities & Achievements
+          <p className="text-xs font-semibold tracking-wider text-indigo-400 uppercase mb-2">
+            Leadership &amp; Community
           </p>
+          <h2 className="text-3xl font-bold text-white tracking-tight sm:text-4xl">
+            Activities &amp; Achievements
+          </h2>
           <p className="mt-3 text-sm text-slate-400">
             Active involvement in campus leadership, student technology communities, and competitive innovation hackathons.
           </p>

@@ -88,7 +88,7 @@ export default function LegalModal({ activeLegal, onClose }) {
               <section>
                 <h3 className="text-base font-semibold text-white mb-2">4. Third-Party Links</h3>
                 <p>
-                  This website contains links to external sites, including ToolNagri (https://tools.sanchitworld.in/), GitHub, LinkedIn, and project repositories. Sanchit Jain is not responsible for the privacy practices or contents of third-party external sites.
+                  This website contains links to external sites, including ToolNagri (https://tools.sanchitworld.in/), GGV Bazar (https://ggvbazar.sanchitworld.in/), GitHub, LinkedIn, and project repositories. Sanchit Jain is not responsible for the privacy practices or contents of third-party external sites.
                 </p>
               </section>
 
